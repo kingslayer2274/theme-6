@@ -1,0 +1,367 @@
+$dark-purple: #363062;
+$purple: #4d4c7d;
+$light-purple: #827397;
+$very-light-purple: #d8b9c3;
+
+// MEDIA QUERIES
+.my-owl {
+  padding: 2rem 1rem !important;
+}
+body {
+  .all {
+    overflow-x: hidden !important;
+    // border: 1.2rem solid $light-purple;
+  }
+  header {
+    padding-top: 3rem;
+    .stu-img {
+      height: 20.25rem !important;
+    }
+    .uni {
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 1.8rem 2rem;
+      color: white;
+      //padding-top: 2rem;
+      background-image: linear-gradient(to right, #363062, #d8b9c3);
+    }
+    .stu-name {
+      font-size: 1.4rem;
+      //padding-top: 1.4rem;
+      margin-left: 2rem;
+    }
+    .ports {
+      max-width: 100%;
+      //margin-top: 1.8rem;
+      margin-left: 0;
+      .port-1-bg {
+        background-color: $light-purple;
+      }
+      .port-2-bg {
+        background-color: $purple;
+      }
+      .port-3-bg {
+        background-color: $light-purple;
+      }
+      .port-4-bg {
+        background-color: $purple;
+      }
+
+      .port-item {
+        color: #fff;
+        padding: 1rem;
+        cursor: pointer;
+        //     font-size: 1.3rem;
+        svg {
+          margin: 1rem auto;
+        }
+      }
+    }
+  }
+  #home {
+    background-color: rgb(247, 244, 244);
+    box-sizing: border-box;
+    padding-bottom: 4rem;
+    .courses {
+      background-color: $light-purple;
+      .lead {
+        color: white;
+        padding: 3rem 4rem;
+        font-size: 2.8rem;
+        font-weight: bold;
+      }
+    }
+    .acc-1,
+    .acc-2,
+    .acc-3 {
+      margin-top: 6rem;
+      margin-right: 4rem;
+    }
+  }
+  #events {
+    .sec-title {
+      background-color: $purple;
+    }
+    .owl-carousel {
+      position: relative;
+      .owl-nav {
+        .owl-next,
+        .owl-prev {
+          padding: 4rem 2rem !important;
+          background-color: rgba(255, 255, 255, 0.4);
+          border-radius: 3rem;
+          &:hover {
+            background-color: rgba(255, 255, 255, 1);
+            transition: all 0.5s;
+          }
+        }
+        .owl-prev {
+          position: absolute;
+          top: 50%;
+          left: 8%;
+        }
+        .owl-next {
+          position: absolute;
+          top: 50%;
+          right: 8%;
+        }
+      }
+      .col {
+        padding-bottom: 16rem;
+      }
+      .slider-1 {
+        background-image: linear-gradient(to right, rgba($purple, 0.6), rgba($light-purple, 0.6)),
+          url("../images/slider-1.jpg");
+        background-size: cover;
+        color: white;
+        .cap-1 {
+          margin-top: 8rem;
+          font-size: 1.6rem;
+        }
+        .caro-title {
+          font-size: 2.8rem;
+          font-weight: bold;
+        }
+      }
+      .slider-2 {
+        background-image: linear-gradient(to right, rgba($purple, 0.6), rgba($light-purple, 0.6)),
+          url("../images/slider-2.jpg");
+        background-size: cover;
+        color: white;
+        .cap-1 {
+          margin-top: 8rem;
+          font-size: 1.6rem;
+        }
+        .caro-title {
+          font-size: 2.8rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  #degrees {
+    padding-bottom: 3rem;
+    .sec-title {
+      background-color: $light-purple;
+    }
+    .my-table {
+      margin-top: 5rem;
+    }
+  }
+  #mail {
+    .sec-title {
+      background-color: $purple;
+    }
+    .ann {
+      margin: 10rem 2rem;
+    }
+  }
+  footer {
+    .row {
+      .col {
+        .info {
+          padding: 2rem 1rem;
+          background-color: $light-purple;
+          font-size: 0.9rem;
+          color: white;
+          .contact {
+            margin-left: 31rem;
+            cursor: pointer;
+            small {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// MEDIA QUEREIS
+
+@media only screen and(max-width:500px) {
+  body {
+    //overflow-x: hidden !important;
+    header {
+      padding-top: 0;
+      col {
+        padding-right: 0 !important;
+      }
+      .stu-img {
+        max-width: 20rem;
+        display: none;
+      }
+      .ports {
+        .port-item {
+          font-size: 0.8rem;
+          svg {
+            font-size: 1.5rem !important;
+          }
+        }
+      }
+    }
+  }
+  #home {
+    .col-title {
+      //padding-left: 0;
+    }
+    .courses {
+      .lead {
+        font-size: 1.7rem !important;
+      }
+    }
+    .progress-circle {
+      width: 6rem;
+      height: 6rem;
+      &:before {
+        font-size: 1.2rem;
+      }
+    }
+    .acc-1,
+    .acc-2,
+    .acc-3 {
+      margin-top: 5rem !important;
+      margin-left: 2rem !important;
+      margin-right: 1rem !important;
+    }
+  }
+  #events {
+    .sec-title {
+      font-size: 1.7rem !important;
+    }
+    .owl-carousel {
+      .owl-nav {
+        .owl-next,
+        .owl-prev {
+          top: 55% !important;
+        }
+      }
+    }
+  }
+  #degrees {
+    .sec-title {
+      font-size: 1.7rem !important;
+    }
+  }
+  #mail {
+    .sec-title {
+      font-size: 1.7rem !important;
+    }
+  }
+  footer {
+    width: 104.2% !important;
+  }
+}
+
+// CUSTOM CLASSES
+.sec-title {
+  color: white;
+  padding: 3rem 4rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+//  PROGRESS CIRCLE
+.progress-circle {
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10rem;
+  margin: 4rem 2rem 0;
+  position: relative;
+  width: 10rem;
+}
+.progress-circle:before {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  content: attr(data-progress) "%";
+  display: -webkit-box;
+  display: flex;
+  font-size: 3rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  bottom: 1rem;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+.progress-circle:after {
+  background-color: #0083ff;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.progress-circle:hover:before,
+.progress-circle:focus:before {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.progress-circle[data-progress="20"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent),
+    linear-gradient(162deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="40"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent),
+    linear-gradient(162deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="60"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent),
+    linear-gradient(162deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+/**
+  * $step is set to 5 by default, meaning you can only use percentage classes in increments of five (e.g. 25, 30, 45, 50, and so on). This helps to reduce the size of the final CSS file. If you need a number that doesn't end in 0 or 5, you can change the text percentage while rounding the class up/down to the nearest 5.
+  */
+
+// ACCORDION
+
+.myaccordion {
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #edeff0;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 18px;
+  .fa-plus,
+  .fa-minus {
+    font-size: 0.7rem !important;
+  }
+  .fa-stack-2x {
+    font-size: 1rem !important;
+  }
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}

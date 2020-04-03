@@ -1,0 +1,254 @@
+.my-owl {
+  padding: 2rem 1rem !important; }
+
+body .all {
+  overflow-x: hidden !important; }
+
+body header {
+  padding-top: 3rem; }
+  body header .stu-img {
+    height: 20.25rem !important; }
+  body header .uni {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.8rem 2rem;
+    color: white;
+    background-image: linear-gradient(to right, #363062, #d8b9c3); }
+  body header .stu-name {
+    font-size: 1.4rem;
+    margin-left: 2rem; }
+  body header .ports {
+    max-width: 100%;
+    margin-left: 0; }
+    body header .ports .port-1-bg {
+      background-color: #827397; }
+    body header .ports .port-2-bg {
+      background-color: #4d4c7d; }
+    body header .ports .port-3-bg {
+      background-color: #827397; }
+    body header .ports .port-4-bg {
+      background-color: #4d4c7d; }
+    body header .ports .port-item {
+      color: #fff;
+      padding: 1rem;
+      cursor: pointer; }
+      body header .ports .port-item svg {
+        margin: 1rem auto; }
+
+body #home {
+  background-color: #f7f4f4;
+  box-sizing: border-box;
+  padding-bottom: 4rem; }
+  body #home .courses {
+    background-color: #827397; }
+    body #home .courses .lead {
+      color: white;
+      padding: 3rem 4rem;
+      font-size: 2.8rem;
+      font-weight: bold; }
+  body #home .acc-1,
+  body #home .acc-2,
+  body #home .acc-3 {
+    margin-top: 6rem;
+    margin-right: 4rem; }
+
+body #events .sec-title {
+  background-color: #4d4c7d; }
+
+body #events .owl-carousel {
+  position: relative; }
+  body #events .owl-carousel .owl-nav .owl-next,
+  body #events .owl-carousel .owl-nav .owl-prev {
+    padding: 4rem 2rem !important;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 3rem; }
+    body #events .owl-carousel .owl-nav .owl-next:hover,
+    body #events .owl-carousel .owl-nav .owl-prev:hover {
+      background-color: white;
+      transition: all 0.5s; }
+  body #events .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 8%; }
+  body #events .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    right: 8%; }
+  body #events .owl-carousel .col {
+    padding-bottom: 16rem; }
+  body #events .owl-carousel .slider-1 {
+    background-image: linear-gradient(to right, rgba(77, 76, 125, 0.6), rgba(130, 115, 151, 0.6)), url("../images/slider-1.jpg");
+    background-size: cover;
+    color: white; }
+    body #events .owl-carousel .slider-1 .cap-1 {
+      margin-top: 8rem;
+      font-size: 1.6rem; }
+    body #events .owl-carousel .slider-1 .caro-title {
+      font-size: 2.8rem;
+      font-weight: bold; }
+  body #events .owl-carousel .slider-2 {
+    background-image: linear-gradient(to right, rgba(77, 76, 125, 0.6), rgba(130, 115, 151, 0.6)), url("../images/slider-2.jpg");
+    background-size: cover;
+    color: white; }
+    body #events .owl-carousel .slider-2 .cap-1 {
+      margin-top: 8rem;
+      font-size: 1.6rem; }
+    body #events .owl-carousel .slider-2 .caro-title {
+      font-size: 2.8rem;
+      font-weight: bold; }
+
+body #degrees {
+  padding-bottom: 3rem; }
+  body #degrees .sec-title {
+    background-color: #827397; }
+  body #degrees .my-table {
+    margin-top: 5rem; }
+
+body #mail .sec-title {
+  background-color: #4d4c7d; }
+
+body #mail .ann {
+  margin: 10rem 2rem; }
+
+body footer .row .col .info {
+  padding: 2rem 1rem;
+  background-color: #827397;
+  font-size: 0.9rem;
+  color: white; }
+  body footer .row .col .info .contact {
+    margin-left: 31rem;
+    cursor: pointer; }
+    body footer .row .col .info .contact small {
+      font-size: 0.7rem; }
+
+@media only screen and (max-width: 500px) {
+  body header {
+    padding-top: 0; }
+    body header col {
+      padding-right: 0 !important; }
+    body header .stu-img {
+      max-width: 20rem;
+      display: none; }
+    body header .ports .port-item {
+      font-size: 0.8rem; }
+      body header .ports .port-item svg {
+        font-size: 1.5rem !important; }
+  #home .courses .lead {
+    font-size: 1.7rem !important; }
+  #home .progress-circle {
+    width: 6rem;
+    height: 6rem; }
+    #home .progress-circle:before {
+      font-size: 1.2rem; }
+  #home .acc-1,
+  #home .acc-2,
+  #home .acc-3 {
+    margin-top: 5rem !important;
+    margin-left: 2rem !important;
+    margin-right: 1rem !important; }
+  #events .sec-title {
+    font-size: 1.7rem !important; }
+  #events .owl-carousel .owl-nav .owl-next,
+  #events .owl-carousel .owl-nav .owl-prev {
+    top: 55% !important; }
+  #degrees .sec-title {
+    font-size: 1.7rem !important; }
+  #mail .sec-title {
+    font-size: 1.7rem !important; }
+  footer {
+    width: 104.2% !important; } }
+
+.sec-title {
+  color: white;
+  padding: 3rem 4rem;
+  font-size: 2.8rem;
+  font-weight: bold; }
+
+.progress-circle {
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10rem;
+  margin: 4rem 2rem 0;
+  position: relative;
+  width: 10rem; }
+
+.progress-circle:before {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  content: attr(data-progress) "%";
+  display: -webkit-box;
+  display: flex;
+  font-size: 3rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  bottom: 1rem;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease; }
+
+.progress-circle:after {
+  background-color: #0083ff;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%; }
+
+.progress-circle:hover:before,
+.progress-circle:focus:before {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8); }
+
+.progress-circle[data-progress="20"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #0083ff 50%, #ddd 50%, #ddd); }
+
+.progress-circle[data-progress="40"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #0083ff 50%, #ddd 50%, #ddd); }
+
+.progress-circle[data-progress="60"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #0083ff 50%, #ddd 50%, #ddd); }
+
+/**
+  * $step is set to 5 by default, meaning you can only use percentage classes in increments of five (e.g. 25, 30, 45, 50, and so on). This helps to reduce the size of the final CSS file. If you need a number that doesn't end in 0 or 5, you can change the text percentage while rounding the class up/down to the nearest 5.
+  */
+.myaccordion {
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); }
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none; }
+
+.myaccordion .card-header {
+  border-bottom-color: #edeff0;
+  background: transparent; }
+
+.myaccordion .fa-stack {
+  font-size: 18px; }
+  .myaccordion .fa-stack .fa-plus,
+  .myaccordion .fa-stack .fa-minus {
+    font-size: 0.7rem !important; }
+  .myaccordion .fa-stack .fa-stack-2x {
+    font-size: 1rem !important; }
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0; }
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none; }
+
+.myaccordion li + li {
+  margin-top: 10px; }
